@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.wrapped {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapped a{
+    text-decoration: none;
+    color: #007bff
+}
+
+.wrapped p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.wrapped h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label {
+    font-size: 12px;
+    color: #555555;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+
